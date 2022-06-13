@@ -18,9 +18,11 @@ ul {
     justify-content: end;
     list-style: none;
     gap: 5%;
-    
 }
-
+li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
 
 .hero {
     padding: 100px 10%;
