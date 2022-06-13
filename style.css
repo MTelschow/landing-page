@@ -39,7 +39,8 @@ ul {
 
 .facts {
     display: flex;
-    gap: 5%;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 
@@ -50,6 +51,10 @@ ul {
     font-size: 24px;
     padding: 5% 20%;
     background-color: #E5E7EB;
+}
+
+.fact-text {
+    width: 180px;
 }
 
 .quote-text {
@@ -68,16 +73,22 @@ ul {
 }
 
 p {
-    margin-bottom: 0%;
+    margin: 0%;
 }
 
 
 .cta {
     color: #E5E7EB;
     margin: 5% 15%;
-    padding: 20px 5%;
+    padding: 50px 5%;
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
+}
+
+h4 {
+    margin: 0%;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -89,6 +100,9 @@ footer {
 button {
     background-color: #3882F6;
     font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
 }
 
 
@@ -136,6 +150,7 @@ h3 {
 
 .fact-img img{
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
 }
