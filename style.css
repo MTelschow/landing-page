@@ -27,6 +27,16 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.hero-text p{
+    margin-bottom: 20px;
 }
 
 .info {
@@ -48,7 +58,7 @@ ul {
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 30px;
     padding: 5% 20%;
     background-color: #E5E7EB;
 }
@@ -84,6 +94,7 @@ p {
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
+    align-items: center;
 }
 
 h4 {
@@ -97,18 +108,38 @@ footer {
     text-align: center;
 }
 
-button {
-    background-color: #3882F6;
-    font-size: 18px;
-    padding: 8px 16px;
+
+
+
+
+
+
+
+.button {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
     border-radius: 8px;
-    border-color: #E5E7EB;
-}
+    height: 5px;
+    line-height: 5px;
+    color: #F9FAF8;
+    width: 80px;
+    font-size: 18px;
+    padding: 13px;
+    background-color: #3882F6;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
 
+ .cta .button {
+    border: solid #F9FAF8 2px;
+ }
 
-
-
-
+.button:hover {
+    color: #3882F6;
+    background: #F9FAF8;
+ }
 
 
 header, .hero, .cta, footer {
@@ -130,6 +161,7 @@ h1, h4 {
 }
 
 h2 {
+    margin: 0%;
     font-size: 48px;
     font-weight: bolder;
     margin: 0%;
